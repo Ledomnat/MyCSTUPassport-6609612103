@@ -1,0 +1,19 @@
+#W{
+        font-family monospace;
+        font-size 40px;
+        colorrgb(255, 255, 255);
+        text-aligncenter;
+    }
+    #Cent{
+        font-family monospace;
+        display block;
+        margin-left auto;
+        margin-right auto;
+    }
+    ul {
+        font-family monospace;
+        font-size 20px;
+        colorrgb(255, 255, 255);
+        list-style none;
+        text-aligncenter;
+    }
