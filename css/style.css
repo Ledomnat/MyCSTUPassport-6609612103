@@ -1,15 +1,6 @@
 html {
     font-family: 'Open Sans', sans-serif;
-    background-color: #ec4b00;
-    background: url(https://tu.ac.th/uploads/news-tu/images/sep62/images322.jpg);
-    background-size: 1500px 750px;
-    background-repeat: repeat;
-  }
-body {
-    width: 800px;
-    margin: 0 auto;
-    background-color: rgb(224, 224, 224);
-    padding: 0 20px 20px 20px;
+    background-color: #ddd;
 }
 #S1{
     font-family: "Kanit",sans-serif,"Arial";
@@ -80,6 +71,97 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+.L {
+    float: left;
+    width: 35%;
+    overflow: hidden;
+}
+.R {
+    float: left;
+    width: 60%;
+}
+.MyPic {
+    float: left;
+    width: 80%;
+    padding: 10px 15px;
+    margin-top: 7px;
+    overflow: hidden;
+}
+.MyVid {
+    float: left;
+    width: 80%;
+    padding: 10px 15px;
+    margin-top: 7px;
+    overflow: hidden;
+}
+.MyName {
+    background-color: rgb(85, 85, 85);
+    color: #ffffff;
+    float: left;
+    width: 100%;
+    padding: 10px 15px;
+    margin-top: 7px;
+    border: 2px solid #000000;
+}
+.MyEveryDay {
+    background-color: rgb(226, 226, 226);
+    color: #000000;
+    float: left;
+    width: 100%;
+    padding: 10px 15px;
+    margin-top: 14px;
+    border-left: 2px solid #000000;
+    height: 700px;
+}
+
+@media only screen and (max-width:1000px) {
+    .L {
+        width: 100%;
+    }
+    .R {
+        width: 100%;
+    }
+    .MyPic {
+        float: left;
+        width: 45%;
+        padding: 15px 15px;
+        margin-top: 7px;
+        overflow: hidden;
+        
+    }
+    .MyVid {
+        float: left;
+        width: 45%;
+        padding: 15px 15px;
+        margin-top: 7px;
+        overflow: hidden;
+    }
+
+  }
+@media only screen and (max-width:600px) {
+    .L {
+        width: 100%;
+    }
+    .R {
+        width: 100%;
+    }
+    .MyPic {
+        float: none;
+        width: 80%;
+        padding: 0;
+        margin-top: 0;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .MyVid {
+        float: none;
+        width: 80%;
+        padding: 0;
+        margin-top: 0;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
 }
 
 .navbar {
